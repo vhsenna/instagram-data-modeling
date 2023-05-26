@@ -7,11 +7,11 @@ The data model is designed to represent the main entities in Instagram, includin
 ## Table Creation Statements
 The following are the SQL statements for creating the tables in the Instagram data model:
 
-- `users`: Represents Instagram users with attributes such as `user_id`, `name`, `email`, and `phone_number`.
-- `posts`: Stores Instagram posts with attributes like `post_id`, `user_id`, `caption`, and `created_at`.
-- `comments`: Manages comments on Instagram posts, storing information such as `comment_id`, `post_id`, `user_id`, `comment_text`, and `created_at`.
-- `likes`: Tracks likes given to Instagram posts, recording details like `like_id`, `post_id`, `user_id`, and `created_at`.
-- `followers`: Handles the follower relationships between Instagram users, capturing `follower_id`, `user_id`, `follower_user_id`, and `created_at`.
+- **users**: Represents Instagram users with attributes such as `user_id`, `name`, `email`, and `phone_number`.
+- **posts**: Stores Instagram posts with attributes like `post_id`, `user_id`, `caption`, and `created_at`.
+- **comments**: Manages comments on Instagram posts, storing information such as `comment_id`, `post_id`, `user_id`, `comment_text`, and `created_at`.
+- **likes**: Tracks likes given to Instagram posts, recording details like `like_id`, `post_id`, `user_id`, and `created_at`.
+- **followers**: Handles the follower relationships between Instagram users, capturing `follower_id`, `user_id`, `follower_user_id`, and `created_at`.
 
 ![](model.png)
 
